@@ -3,8 +3,8 @@ FROM node:24-alpine AS builder
 RUN apk update && \
     apk add --no-cache git ffmpeg wget curl bash openssl libssl1.1 libstdc++
 
-LABEL version="2.3.1" description="Api to control whatsapp features through http requests." 
-LABEL maintainer="Davidson Gomes" git="https://github.com/DavidsonGomes"
+LABEL version="2.3.1\" description="Api to control whatsapp features through http requests." 
+LABEL maintainer="Davidson Gomes\" git="https://github.com/DavidsonGomes"
 LABEL contact="contato@evolution-api.com"
 
 WORKDIR /evolution
